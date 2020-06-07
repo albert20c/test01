@@ -3,3 +3,7 @@ hello github
 http://ftp.daum.net/ubuntu
 
 open 'language support' -> downloads some pkg
+재부팅 후 settings->Region & Language에 Korean(Hangul) 추가
+
+sudo apt install gnome-tweaks
+재부팅
