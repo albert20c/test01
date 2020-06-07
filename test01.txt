@@ -1,3 +1,5 @@
 hello github
 
 http://ftp.daum.net/ubuntu
+
+open 'language support' -> downloads some pkg
