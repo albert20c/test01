@@ -17,6 +17,13 @@ vscode 설치
 홈페이지에서 .deb package 다운로드
 sudo apt install ./<file>.deb
 
+chrome 설치
+홈페이지에서 .deb package 다운로드
+sudo apt install ./<file>.deb
+
+Dash to Panel 설치
+
+
 Installing ROS 2 Foxy Fitzroy
 
 source /opt/ros/foxy/setup.bash
