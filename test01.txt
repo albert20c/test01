@@ -7,3 +7,16 @@ open 'language support' -> downloads some pkg
 
 sudo apt install gnome-tweaks
 재부팅
+tweaks -> Keyboard & Mouse -> Additional Layout Options -> Korean Hangul/Hanja keys
+-> Make right Alt a Hangul key와 Make right Ctrl a Hanja key를 체크한다.
+IBusHangul Setup에서 한글키와 한자키를 등록한다.
+
+동영상 재생 sudo apt install mpv
+
+vscode 설치
+홈페이지에서 .deb package 다운로드
+sudo apt install ./<file>.deb
+
+Installing ROS 2 Foxy Fitzroy
+
+source /opt/ros/foxy/setup.bash
