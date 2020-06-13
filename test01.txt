@@ -55,3 +55,42 @@ sudo apt install git
 git clone https://github.com/facebookresearch/detectron2.git
 python -m pip install -e detectron2
 python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
+
+git clone https://github.com/oneapi-src/oneDNN.git
+
+mkdir -p build && cd build
+
+conda install -c conda-forge pyopencl
+
+WARNING: No ICDs were found. Either,
+- Install a conda package providing a OpenCL implementation (pocl, oclgrind, intel-compute-runtime, beignet) or 
+- Make your system-wide implementation visible by installing ocl-icd-system conda package.
+
+conda install -c conda-forge ocl-icd-system
+conda install -c conda-forge clinfo
+
+apt-get install intel-opencl-icd
+sudo apt install intel-opencl-icd
+clinfo
+
+cmake .. -DDNNL_GPU_RUNTIME=OCL
+https://documen.tician.de/pyopencl/misc.html
+conda install -c conda-forge intel-compute-runtime
+sudo apt install opencl-headers
+sudo apt install ocl-icd-opencl-dev
+sudo apt install clinfo ocl-icd-opencl-dev opencl-headers
+
+Intel® SDK for OpenCL™ Applications for Linux 다운로드
+intel_sdk_for_opencl_applications_2020.1.395.tar.gz
+
+tar -xvf intel_sdk_for_opencl_applications_2020.1.395.tar.gz
+cd intel_sdk_for_opencl_applications_2020.1.395
+sudo ./install.sh
+cmake .. -DDNNL_GPU_RUNTIME=OCL -DOPENCLROOT=/opt/intel/system_studio_2020
+
+Intel® Performance Libraries
+intel Threading Building Blocks
+l_tbb_2020.2.217.tgz
+tar -xzf l_tbb_2020.2.217.tgz
+cd
+sudo ./install.sh
