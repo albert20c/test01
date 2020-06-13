@@ -27,3 +27,31 @@ Dash to Panel 설치
 Installing ROS 2 Foxy Fitzroy
 
 source /opt/ros/foxy/setup.bash
+
+Miniconda 설치
+홈페이지에서 installer 다운로드
+sha256sum filename
+bash Miniconda3-latest-Linux-x86_64.sh
+
+conda create -n vsc
+conda install -c conda-forge nodejs
+node --version
+npm --version
+conda install -c conda-forge electron
+
+conda install -c conda-forge detectron2
+
+conda create -n [env-name] --clone [src-env-name]
+conda env remove -n ENV_NAME
+conda env list
+
+Go to File>Preference>Settings and in user settings  Title Bar Style "window.titleBarStyle": "custom",
+
+conda install -c conda-forge pylint
+conda install pytorch torchvision cpuonly -c pytorch
+conda install -c conda-forge opencv
+
+sudo apt install git
+git clone https://github.com/facebookresearch/detectron2.git
+python -m pip install -e detectron2
+python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
