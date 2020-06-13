@@ -94,3 +94,13 @@ l_tbb_2020.2.217.tgz
 tar -xzf l_tbb_2020.2.217.tgz
 cd
 sudo ./install.sh
+
+conda install -c anaconda mkl-dnn
+
+Compute Library for Deep Neural Networks (clDNN)
+git clone  https://github.com/intel/cldnn.git
+cmake -E make_directory build && cd build && cmake -DCMAKE_BUILD_TYPE=Release .. && make
+
+https://docs.openvinotoolkit.org/2020.3/_docs_install_guides_installing_openvino_linux.html#additional-GPU-steps
+https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_linux.html
+l_openvino_toolkit_p_2020.3.194.tgz
