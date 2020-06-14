@@ -1,0 +1,25 @@
+Install Intel® Distribution of OpenVINO™ toolkit for Linux* 
+
+Download the Intel® Distribution of OpenVINO™ toolkit package
+
+conda create --n openvino
+
+tar -xvzf l_openvino_toolkit_p_<version>.tgz
+tar -xvzf l_openvino_toolkit_p_2020.3.194.tgz
+
+sudo ./install_GUI.sh
+
+
+https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit.html
+conda install -c intel openvino-ie4py-ubuntu18
+
+https://github.com/openvinotoolkit/openvino/tree/master/inference-engine/samples/object_detection_sample_ssd
+
+https://github.com/odundar/openvino_python_samples
+
+conda install -c anaconda opencv
+
+sudo apt-get install intel-gpu-tools
+sudo intel_gpu_top
+
+https://medium.com/@sonercan.kalkan/openvino-installation-5f6dbb6b3bf6
