@@ -28,6 +28,33 @@ Installing ROS 2 Foxy Fitzroy
 
 source /opt/ros/foxy/setup.bash
 
+git 설치
+sudo apt install git
+
+node js 설치
+sudo apt install nodejs
+
+npm 설치
+sudo apt install npm
+
+electron 설치
+npm install --save-dev electron #???
+
+# Clone the repository
+$ git clone https://github.com/electron/electron-quick-start
+# Go into the repository
+$ cd electron-quick-start
+# Install dependencies
+$ npm install #???
+# Run the app
+$ npm start
+
+opencv 설치확인 ??
+pkg-config --modversion opencv4
+
+opencv 설치 ??
+sudo apt install python3-opencv
+
 Miniconda 설치
 홈페이지에서 installer 다운로드
 sha256sum filename
