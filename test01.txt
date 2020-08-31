@@ -11,6 +11,9 @@ tweaks -> Keyboard & Mouse -> Additional Layout Options -> Korean Hangul/Hanja k
 -> Make right Alt a Hangul key와 Make right Ctrl a Hanja key를 체크한다.
 IBusHangul Setup에서 한글키와 한자키를 등록한다.
 
+듀얼부팅 시간 문제
+timedatectl set-local-rtc 1 --adjust-system-clock
+
 동영상 재생 sudo apt install mpv
 
 vscode 설치
